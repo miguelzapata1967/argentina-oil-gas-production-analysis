@@ -1,0 +1,38 @@
+# Large raw and processed datasets
+*.csv
+fixed/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
+
+# Windows / OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# dbt generated folders
+target/
+dbt_packages/
+logs/
+
